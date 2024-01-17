@@ -1,4 +1,5 @@
 const userName = document.getElementById("name");
+const userN = document.getElementById("id");
 const CertificateID = document.getElementById("IdC");
 const submitBtn = document.getElementById("submitBtn");
 const { PDFDocument, rgb } = PDFLib;
@@ -92,6 +93,12 @@ const generatePDF = async (name, id, currentTime) => {
     x: centerX,
     y: 280,
     size: textSize,
+  });
+
+  firstPage.drawText(id, {
+    x: 330,
+    y: 245,
+    size: 15,
   });
 
   firstPage.drawText(IdC, {
