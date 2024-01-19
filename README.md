@@ -8,7 +8,7 @@ La web [tucerticado.co](tucertificado.co) es el proyecto titulado "Desarrollo de
 > Presentación de la Beta 2: Olimpiadas Matematicas <br>
 > Presentación de la Beta 3: Expo UCundinamarca <br>
 > Presentación de la Beta 4: Dia de la Mujer en Ingenieria
-# Realizado por: @jlianacastillo 👩‍💻
+# Realizado por: @julianacastilloaraujo 👩‍💻
 Contactame aquí por las redes sociales: <br>
 * [LinkedIn](https://www.linkedin.com/in/julianacastilloaraujo/)
 * [Twitter](https://twitter.com/jcastilloaraujo)
