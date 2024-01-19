@@ -11,5 +11,5 @@ La web [tucerticado.co](tucertificado.co) es el proyecto titulado "Desarrollo de
 # Realizado por: @jlianacastillo 👩‍💻
 Contactame aquí por las redes sociales: <br>
 * [LinkedIn](https://www.linkedin.com/in/julianacastilloaraujo/)
-* [Twitter](https://twitter.com/jlianacastillo)
+* [Twitter](https://twitter.com/jcastilloaraujo)
 * [Correo Electrónico](jcastilloa@ucundinamarca.edu.co)
