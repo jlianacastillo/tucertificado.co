@@ -95,7 +95,11 @@ const generatePDF = async (name, id, currentTime) => {
     size: textSize,
   });
 
- 
+  firstPage.drawText(id, {
+    x: 330,
+    y: 245,
+    size: 15,
+  });
 
   firstPage.drawText(IdC, {
     x: 48,
