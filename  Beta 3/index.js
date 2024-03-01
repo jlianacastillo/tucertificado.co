@@ -39,7 +39,7 @@ submitBtn.addEventListener("click", () => {
 
     xlsxData.forEach(data => {
       const nameVal = capitalize(data['Nombre Completo']);
-      const idVal = capitalize(data['Número de Identificación']);
+      const idVal = capitalize(data['Identificacion']);
 
       const currentTime = new Date().toLocaleString();
       
