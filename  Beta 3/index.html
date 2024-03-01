@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expo UCundinamarca</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
+    <style>
+        body {
+            background-image: url("Fondo.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            overflow: auto;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <img src="./ESCUDO-COLOR-H.png" alt="Logo">
+        <br>
+        <br>
+        <div>Bienvenida al Dia de la Mujer en Ingenieria</div>
+        <br>En este lugar, podrás obtener tu certificado de <br> participación  como <b>organizadora</b> en el evento<br><br><b>DIA DE LA MUJER EN INGENIERIA</b><b></b></br>
+        </div>
+        <h2>Por favor introduce tus datos:</h2>
+        
+    </header>
+
+    <main>
+        <label for="name">Nombre Completo</label>
+        <input required placeholder="Nombre" type="text" name="Name" id="name" autocomplete="name" style="text-align: center;">
+        <br>
+        <label for="id">Número de identificación</label>
+        <input required placeholder="Identificación" type="text" name="Name" id="id" autocomplete="id" style="text-align: center;">
+       <!-- codigo del otro proyecto -->
+       <br>
+        <input type="file" id="xlsxFileInput" accept=".xlsx">
+        <br>
+        <button id="submitBtn">Generar Certificados</button>
+       <!-- fin codigo del otro proyecto -->    
+    <!-- <button id="submitBtn">Generar certificado</button> -->
+    </main>
+    
+    <script src="https://unpkg.com/pdf-lib@1.4.0"></script>
+    <script src="./FileSaver.js"></script>
+    <script src="https://unpkg.com/@pdf-lib/fontkit@0.0.4"></script>
+    <script src="./index.js"></script>
+</body>
+<footer>
+    <p>&copy; 2023 Expo UCundinamarca | Todos los derechos reservados</p>
+    <strong>Universidad de Cundinamarca - Seccional Ubaté</strong>
+</footer>
+</html>
