@@ -9,7 +9,7 @@ La web [tucerticado.co](tucertificado.co) es el proyecto titulado "Desarrollo de
 > ✅ Beta 3: Expo UCundinamarca <br>
 > ✅ Beta 4: Competencia de robotica <br>
 > ✅ Beta 5: Dia de la Mujer en Ingenieria
-# Realizado por: @jlianacastillo 👩‍💻
+# Realizado por: @julianacastilloaraujo 👩‍💻
 Contactame aquí por las redes sociales: <br>
 * [LinkedIn](https://www.linkedin.com/in/julianacastilloaraujo/)
 * [Twitter](https://twitter.com/jlianacastillo)
