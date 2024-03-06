@@ -9,6 +9,11 @@ La web [tucerticado.co](tucertificado.co) es el proyecto titulado "Desarrollo de
 > ✅ Beta 3: Expo UCundinamarca <br>
 > ✅ Beta 4: Competencia de robotica <br>
 > ✅ Beta 5: Dia de la Mujer en Ingenieria
+# Nuevos requerimientos 💪
+* Ultimo cambio que hubo en la Universidad de Cundinamarca  (documentales - septiembre 2023)
+* Unir funcionalidad de solicitud
+  * * Docente, jefe de area (Los que pueden hacer la solicitud)
+  * * Asignacion a las personas que ellas nos digan, para que ellos puedan realizar el certificado 
 # Realizado por: @julianacastilloaraujo 👩‍💻
 Contactame aquí por las redes sociales: <br>
 * [LinkedIn](https://www.linkedin.com/in/julianacastilloaraujo/)
