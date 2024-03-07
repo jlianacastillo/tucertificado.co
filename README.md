@@ -13,8 +13,8 @@ La web [tucerticado.co](tucertificado.co) es el proyecto titulado "Desarrollo de
 # Nuevos requerimientos 💪
 * Ultimo cambio que hubo en la Universidad de Cundinamarca  (documentales - septiembre 2023)
 * Unir funcionalidad de solicitud
-  * * Docente, jefe de area (Los que pueden hacer la solicitud)
-  * * Asignacion a las personas que ellas nos digan, para que ellos puedan realizar el certificado 
+   * Docente, jefe de area (Los que pueden hacer la solicitud)
+   * Asignacion a las personas que ellas nos digan, para que ellos puedan realizar el certificado 
 
 # Plantillas 📌
 * Plantilla revision 1 - V1 con Rafa
