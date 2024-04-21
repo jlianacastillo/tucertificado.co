@@ -28,7 +28,7 @@ submitBtn.addEventListener("click", () => {
     const data = new Uint8Array(e.target.result);
     const workbook = XLSX.read(data, { type: 'array' });
 
-    const sheetName = workbook.SheetNames[0]; // Supongamos que la hoja de cálculo que contiene los datos es la primera.
+    const sheetName = workbook.SheetNames[0]; 
     const worksheet = workbook.Sheets[sheetName];
     const xlsxData = XLSX.utils.sheet_to_json(worksheet);
 
