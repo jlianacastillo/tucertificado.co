@@ -36,18 +36,11 @@ input[name="Name"]{
     font-size: large;
     outline: none;
     border: none;
-    border-bottom: 1px solid #a2bf21;
-}
-
-input[name="ID"]{
-    font-size: large;
-    outline: none;
-    border: none;
-    border-bottom: 1px solid #a2bf21;
+    border-bottom: 1px solid #007b3e;
 }
 
 button {
-    background: #a2bf21;
+    background: #007b3e;
     color: #ffff;
     font-size: 16px; /* Cambia el tamaño del texto a 16 píxeles, puedes ajustar el valor según tus preferencias */
     border: none;

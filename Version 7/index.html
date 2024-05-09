@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto Gestión de Conocimiento</title>
+    <title>Expo UCundinamarca</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
     <style>
         body {
@@ -16,39 +16,40 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-    <img src="./ESCUDO-COLOR-H.png" alt="Logo">
-    <br>
-    <br>
-    <div>Bienvenido asistente</div>
-    <h1>Proyecto de Gestión de Conocimiento</h1>
-    <br>En este lugar, podrás obtener tu certificado de <br> participación  como <b>asistente</b> en la en la sustentación del proyecto <br> de gestión de conocimiento
-    <br><br><b>Desarrollo de una plataforma para la emisión de <br> certificados de los eventos a realizarse en el programa <br> de Ingeniería de Sistemas de la Universidad de Cundinamarca – Seccional Ubaté</b><b></b></br>
-   
-    <br>
-    <h2>Por favor introduce tus datos:</h2>
-    <br>
-</header>
-<main>
-    <label for="name">Nombre Completo</label>
-    <input required placeholder="Nombre" type="text" name="Name" id="name" autocomplete="name" style="text-align: center;">
-    <br>
-    <label for="id">Número de identificación</label>
-    <input required placeholder="Identificación" type="text" name="ID" id="id" autocomplete="id" style="text-align: center;">
+    <header>
+        <img src="./ESCUDO-COLOR-H.png" alt="Logo">
+        <br>
+        <br>
+        <div>Bienvenido/a tallerista</div>
+        <h1>Expo UCundinamarca 2023</h1>
+        <br>En este lugar, podrás obtener tu certificado de <br> participación  como <b>asistente</b> en el taller <br><br><b>INTELIGENCIA ARTIFICIAL PARA TODOS</b><b></b></br>
+        </div>
+        <br>
+        <h2>Por favor introduce tus datos:</h2>
+        <br>
+       
+    </header>
 
-    <button id="submitBtn">Generar certificado</button>
-</main>
-
-
-<script src="https://unpkg.com/pdf-lib@1.4.0"></script>
-<script src="./FileSaver.js"></script>
-<script src="https://unpkg.com/@pdf-lib/fontkit@0.0.4"></script>
-<script src="./index.js"></script>
-
-<footer>
-    <p>Presentación de Proyecto de Gestión de Conocimiento</p>
-    <p>3 de mayo del 2024 | Ingeniería de Sistemas</p>
-    <strong>&copy; Universidad de Cundinamarca - Seccional Ubaté</strong>
-</footer>
+    <main>
+        <label for="name">Nombre Completo</label>
+        <input required placeholder="Nombre" type="text" name="Name" id="name" autocomplete="name" style="text-align: center;">
+        <br>
+        <label for="id">Identificacion</label>
+        <input required placeholder="Identificación" type="text" name="Name" id="id" autocomplete="id" style="text-align: center;">
+       <!-- codigo del otro proyecto -->
+        <input type="file" id="xlsxFileInput" accept=".xlsx">
+        <button id="submitBtn">Generar Certificados</button>
+       <!-- fin codigo del otro proyecto -->    
+    <!-- <button id="submitBtn">Generar certificado</button> -->
+    </main>
+    
+    <script src="https://unpkg.com/pdf-lib@1.4.0"></script>
+    <script src="./FileSaver.js"></script>
+    <script src="https://unpkg.com/@pdf-lib/fontkit@0.0.4"></script>
+    <script src="./index.js"></script>
 </body>
+<footer>
+    <p>&copy; 2023 Expo UCundinamarca | Todos los derechos reservados</p>
+    <strong>Universidad de Cundinamarca - Seccional Ubaté</strong>
+</footer>
 </html>
