@@ -89,33 +89,39 @@ const generatePDF = async (name, id, currentTime) => {
   const centerX = (pageWidth - totalTextWidth) / 2;
   const centerY = (pageHeight - totalTextHeight) / 2;
 
+  const centerXId = (pageWidth - idTextWidth) / 2;
+
+  const idOffset = (nameTextWidth - idTextWidth) / 2 * 0.08;
+  
+  const idY = 245;
+  
   firstPage.drawText(name, {
-    x: centerX,
-    y: 280,
-    size: 25,
+    x: 220,
+    y: 330,
+    size: 19,
   });
 
   firstPage.drawText(id, {
-    x: 330,
-    y: 245,
+    x: centerXId + idOffset, 
+    y: 310,
     size: 15,
-  });
+  }); 
 
   firstPage.drawText(IdC, {
     x: 48,
-    y: 75,
-    size: 10,
+    y: 50,
+    size: 7,
     color: rgb(68 / 255, 124 / 255, 66 / 255),
   });
 
   firstPage.drawText(currentTime, {
     x: 48,
-    y: 90,
-    size: 10,
+    y: 40,
+    size: 7,
     color: rgb(68 / 255, 124 / 255, 66 / 255),
   });
 
-  const qrCodeData = `Certificado de:${name}\nCon número de CC: ${id}\nFecha: ${currentTime}\n${IdC}\n`;
+  const qrCodeData = `Certificado de:${name}\nCon numero de identidad: ${id}\nFecha: ${currentTime}\n${IdC}\n`;
   const qrCode = await generateQR(qrCodeData);
 
   const qrCodeImage = await pdfDoc.embedPng(qrCode);
@@ -123,7 +129,7 @@ const generatePDF = async (name, id, currentTime) => {
   const qrCodeHeight = 80;
 
   firstPage.drawImage(qrCodeImage, {
-    x: 48,
+    x: 390,
     y: 105,
     width: qrCodeWidth,
     height: qrCodeHeight,
