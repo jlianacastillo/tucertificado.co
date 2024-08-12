@@ -1,6 +1,4 @@
 # tucertificado.co 👩🏼‍🎓
-* Ingenieria de Sistemas - Universidad de Cundinamarca
-* Seccional Ubaté
 > [!NOTE]
 > Presentación de la Beta 1: Estructura funcional del Mockup <br>
 > Presentación de la Beta 2: Olimpiadas Matematicas <br>
