@@ -15,10 +15,3 @@
 # Plantillas 📌
 * Plantilla revision 1 - V1 con Rafa
 * [Descarga de plantilla 1](https://github.com/julianacastilloaraujo/tucertificado.co/files/14527213/Reu.2.-.Plantilla.tesis.1.docx)
-
-
-# Realizado por: @julianacastilloaraujo 👩‍💻
-Contactame aquí por las redes sociales: <br>
-* [LinkedIn](https://www.linkedin.com/in/julianacastilloaraujo/)
-* [Twitter](https://twitter.com/jlianacastillo)
-* [Correo Electrónico](jcastilloa@ucundinamarca.edu.co)
