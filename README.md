@@ -6,7 +6,7 @@
 > ✅ Version 4: Competencia de robotica <br>
 > ✅ Version 5: Dia de la Mujer en Ingenieria <br>
 > ✅ Version 6: Proyecto de Gestion de Conocimiento <br>
->✅ 
+> ✅ Versuib 7: Proyecto de Gestion de Conocimiento V2 <br>
 
 # Nuevos requerimientos 💪
 * Ultimo cambio que hubo en la Universidad de Cundinamarca  (documentales - septiembre 2023)
