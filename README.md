@@ -2,9 +2,11 @@
 > [!NOTE]
 > Presentación de la Beta 1: Estructura funcional del Mockup <br>
 > Presentación de la Beta 2: Olimpiadas Matematicas <br>
-> ✅ Beta 3: Expo UCundinamarca <br>
-> ✅ Beta 4: Competencia de robotica <br>
-> ✅ Beta 5: Dia de la Mujer en Ingenieria
+> ✅ Version 3: Expo UCundinamarca <br>
+> ✅ Version 4: Competencia de robotica <br>
+> ✅ Version 5: Dia de la Mujer en Ingenieria <br>
+> ✅ Version 6: Proyecto de Gestion de Conocimiento <br>
+>✅ 
 
 # Nuevos requerimientos 💪
 * Ultimo cambio que hubo en la Universidad de Cundinamarca  (documentales - septiembre 2023)
